@@ -11,7 +11,7 @@ export default function WhyChoosePlevenda() {
     {
       title: "Trusted Network",
       description:
-        "Access to vetted, reliable vendors who share ourcommitment to excellence.",
+        "Access to vetted, reliable vendors who share our commitment to excellence.",
       icon: <Users strokeWidth={1} />,
     },
     {
