@@ -4,10 +4,11 @@ export default function Logo() {
   return (
     <Image
       src={logo}
-      className="rounded-md h-12.5 w-10"
+      className="rounded-md "
       height={48}
       width={48}
       alt="Logo"
+      unoptimized
     />
   );
 }

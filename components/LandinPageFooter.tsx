@@ -13,7 +13,7 @@ export default function LandingPageFooter() {
             Redefining event planning in the UK with clarity, structure, and
             excellence.
           </p>
-          <div className="flex justify-between w-[50%] text-3xl">
+          <div className="flex justify-start gap-2 text-3xl">
             <span className="rounded-md text-white bg-linear-to-tr from-[#feda75] via-[#d62976] to-[#4f5bd5]">
               <Instagram />
             </span>

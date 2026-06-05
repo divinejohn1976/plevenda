@@ -6,7 +6,7 @@ export default function LandingPageHeader() {
     <section className="flex px-1 md:px-3 text-xs justify-between items-center [&_li,&_a]:hover:scale-[115%] [&_li,&_a]:transition-all [&_li,&_a]:duration-300">
       <Logo />
       <nav>
-        <ul className="flex gap-1 md:gap-4 []">
+        <ul className="flex gap-2 md:gap-6">
           <li>
             <Link href="#">HOME</Link>
           </li>
@@ -14,10 +14,10 @@ export default function LandingPageHeader() {
             <Link href="#">ABOUT</Link>
           </li>
           <li>
-            <Link href="#">EVENT</Link>
+            <Link href="#">EVENTS</Link>
           </li>
           <li>
-            <Link href="#">CONTACTS</Link>
+            <Link href="#">CONTACT</Link>
           </li>
         </ul>
       </nav>
