@@ -19,6 +19,22 @@ export const metadata: Metadata = {
   icons: {
     icon: "/plevenda_logo.png",
   },
+  openGraph: {
+    title: "Plevenda",
+    description: "Event planning made easy",
+    url: "https://plevenda.vercel.app",
+    siteName: "Plevenda",
+    images: [
+      {
+        url: "/plevenda_logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Plevenda",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
